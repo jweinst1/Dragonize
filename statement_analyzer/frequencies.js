@@ -33,7 +33,30 @@ var freq_opers = {
     },
     f_range : function (freqdict) {
         return freq_opers.max(freqdict) - freq_opers.min(freqdict);
+    },
+    above_freq : function (freqdict, decimal) {
+        var wordlst = [];
+        for(var key in freqdict) if(key[freqdict] >= decimal) wordlst.push(key);
+        return wordlst;
+    },
+    below_freq : function (freqdict, decimal) {
+        var wordlst = [];
+        for(var key in freqdict) if(key[freqdict] <= decimal) wordlst.push(key);
+        return wordlst;
     }
 };
 
+//takes a phrase and a regex, and continously searches and replaces the regex in the phrase to count how many
+//times it occurs in the string.
+function count_pattern(phrase, pattern) {
+    var count = 0;
+    while (true) {
+        if(pattern.test(phrase)) {
+            count ++;
+            phrase = phrase.replace(pattern, "");
+        }
+        else break;
+    }
+    return count;
+}
 
