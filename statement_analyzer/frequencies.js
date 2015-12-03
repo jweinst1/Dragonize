@@ -46,6 +46,8 @@ var freq_opers = {
     }
 };
 
+
+
 //takes a phrase and a regex, and continously searches and replaces the regex in the phrase to count how many
 //times it occurs in the string.
 function count_pattern(phrase, pattern) {
@@ -59,4 +61,22 @@ function count_pattern(phrase, pattern) {
     }
     return count;
 }
+//tests if a word only appears once.
+function is_unique(text, word) {
+    var words = text.split(" ");
+    var count = 0;
+    for(i=0;i<words.length;i++) if(words[i]==word) count++;
+    return count > 1;
+}
 
+
+/* -----Distance Frequencies--------*/
+//measures distances of words from different places in text
+
+//distance of start of word from 0
+function dist_start(text, word) {
+    var center = new RegExp(word+" ", "g");
+    return text.search(center);
+}
+
+console.log(new all_frequencies("I love to code because it is fun, interesting, and coding is my passion"));

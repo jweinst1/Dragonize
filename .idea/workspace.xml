@@ -33,13 +33,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="frequencies.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="frequencies.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statement_analyzer/frequencies.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8015873">
-              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc;n#word_freq#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DistanceMapping.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/statement_analyzer/DistanceMapping.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.64285713">
+              <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+              <folding>
+                <element signature="n#!!doc;n#getMaxOfArray#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -85,6 +97,7 @@
         <option value="$PROJECT_DIR$/Words/Wordparsing.js" />
         <option value="$PROJECT_DIR$/Textobjects/SentenceObjects.js" />
         <option value="$PROJECT_DIR$/statement_analyzer/frequencies.js" />
+        <option value="$PROJECT_DIR$/statement_analyzer/DistanceMapping.js" />
       </list>
     </option>
   </component>
@@ -194,7 +207,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager" selected="Node.js.frequencies.js">
+  <component name="RunManager" selected="Node.js.DistanceMapping.js">
     <configuration default="false" name="SentenceObjects.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="SentenceObjects.js" working-dir="$PROJECT_DIR$/Textobjects">
       <method />
     </configuration>
@@ -202,6 +215,9 @@
       <method />
     </configuration>
     <configuration default="false" name="frequencies.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="frequencies.js" working-dir="$PROJECT_DIR$/statement_analyzer">
+      <method />
+    </configuration>
+    <configuration default="false" name="DistanceMapping.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="DistanceMapping.js" working-dir="$PROJECT_DIR$/statement_analyzer">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -236,16 +252,18 @@
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Node.js.SentenceObjects.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.Wordparsing.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.frequencies.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.DistanceMapping.js" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.frequencies.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.Wordparsing.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.SentenceObjects.js" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.DistanceMapping.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.frequencies.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.Wordparsing.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.SentenceObjects.js" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +290,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -333,10 +351,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/statement_analyzer/frequencies.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8015873">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc;n#word_freq#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statement_analyzer/DistanceMapping.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64285713">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!doc;n#getMaxOfArray#0" expanded="false" />
           </folding>
         </state>
       </provider>
