@@ -36,9 +36,11 @@
       <file leaf-file-name="frequencies.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/statement_analyzer/frequencies.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07936508">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-              <folding />
+            <state vertical-scroll-proportion="0.6825397">
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+              <folding>
+                <element signature="n#!!doc;n#word_freq#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,6 +143,16 @@
               <option name="myItemId" value="Dragonize" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dragonize" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dragonize" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Words" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -169,16 +181,6 @@
               <option name="myItemId" value="Dragonize" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dragonize" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dragonize" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="statement_analyzer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -192,11 +194,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager" selected="Node.js.Wordparsing.js">
+  <component name="RunManager" selected="Node.js.frequencies.js">
     <configuration default="false" name="SentenceObjects.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="SentenceObjects.js" working-dir="$PROJECT_DIR$/Textobjects">
       <method />
     </configuration>
     <configuration default="false" name="Wordparsing.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="Wordparsing.js" working-dir="$PROJECT_DIR$/Words">
+      <method />
+    </configuration>
+    <configuration default="false" name="frequencies.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="frequencies.js" working-dir="$PROJECT_DIR$/statement_analyzer">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -231,14 +236,16 @@
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Node.js.SentenceObjects.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.Wordparsing.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.frequencies.js" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.Wordparsing.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.SentenceObjects.js" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.frequencies.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.Wordparsing.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.SentenceObjects.js" />
       </list>
     </recent_temporary>
   </component>
@@ -326,9 +333,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/statement_analyzer/frequencies.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07936508">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding />
+        <state vertical-scroll-proportion="0.6825397">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc;n#word_freq#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
