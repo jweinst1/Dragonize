@@ -17,6 +17,11 @@ function first_index(text, word) {
     var words = text.split(" ");
     for(i=0;i<words.length;i++) if(words[i]==word) return i;
 }
+//find distance of first word from the end
+function dist_end(text, word) {
+    var words = text.split(" ");
+    for(i=words.length-1;i>=0;i-=1) if(words[i]==word) return words.length - i;
+}
 
 function all_indexes(text, word) {
     var words = text.split(" ");
