@@ -52,9 +52,27 @@ var Sentence_Trie = function () {
                 current = current[word];
             }
         }
-    }
+    };
 };
 
+//gets the next possible words after a specific phrase
+function getNextwords(phrase, trie) {
+    phrase = phrase.toLowerCase();
+    var words = phrase.split(" ");
+    var current = trie.phrases;
+    while (words.length>0) {
+        var word = words.shift();
+        if (word in current) current = current[word];
+        else return "phrase not present";
+    }
+    return Object.keys(current);
+}
+//gets all first words in the trie
+function getFirstwords(trie) {
+    return Object.keys(trie);
+}
 
-
-
+var t = new Sentence_Trie();
+t.statement("i love apples and oranges");
+t.statement("i love oranges and apples");
+console.log(getNextwords("i love", t));
