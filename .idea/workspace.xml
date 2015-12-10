@@ -118,8 +118,8 @@
       <file leaf-file-name="PhraseTrie.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/statement_analyzer/PhraseTrie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4047619">
-              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.8333333">
+              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
               <folding>
                 <element signature="n#!!doc;n#single_trie#0" expanded="false" />
               </folding>
@@ -749,8 +749,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/statement_analyzer/PhraseTrie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4047619">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.8333333">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
           <folding>
             <element signature="n#!!doc;n#single_trie#0" expanded="false" />
           </folding>
