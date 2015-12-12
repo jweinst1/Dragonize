@@ -72,6 +72,15 @@ function getFirstwords(trie) {
     return Object.keys(trie);
 }
 
+function split_sentences(text) {
+    return text.split(".");
+}
+//split text by multiple different symbols
+function split_multi(text, symbols) {
+    for(var num in symbols) text = text.replace(symbols[num], "##");
+    return text.split("##");
+}
+
 var t = new Sentence_Trie();
 t.statement("i love apples and oranges");
 t.statement("i love oranges and apples");
