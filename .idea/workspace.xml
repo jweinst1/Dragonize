@@ -21,18 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SentenceObjects.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Textobjects/SentenceObjects.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
-              <folding>
-                <element signature="n#!!doc;n#word#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="frequencies.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statement_analyzer/frequencies.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,13 +79,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Colors.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Colors.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statement_analyzer/SpecificParsers/Colors.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.515873">
-              <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
               <folding>
                 <element signature="n#!!doc;n#word_count#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/statement_analyzer/SpecificParsers/Utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordLengthTree.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/statement_analyzer/SpecificParsers/WordLengthTree.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7619048">
+              <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -127,18 +139,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Wordparsing.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Words/Wordparsing.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="88" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
-              <folding>
-                <element signature="n#!!doc;n#replace_all#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -162,6 +162,8 @@
         <option value="$PROJECT_DIR$/statement_analyzer/wordhasher.js" />
         <option value="$PROJECT_DIR$/statement_analyzer/PhraseTrie.js" />
         <option value="$PROJECT_DIR$/statement_analyzer/SpecificParsers/Colors.js" />
+        <option value="$PROJECT_DIR$/statement_analyzer/SpecificParsers/Utils.js" />
+        <option value="$PROJECT_DIR$/statement_analyzer/SpecificParsers/WordLengthTree.js" />
       </list>
     </option>
   </component>
@@ -290,10 +292,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Node.js.Colors.js">
-    <configuration default="false" name="frequencies.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="frequencies.js" working-dir="$PROJECT_DIR$/statement_analyzer">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.WordLengthTree.js">
     <configuration default="false" name="DistanceMapping.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="DistanceMapping.js" working-dir="$PROJECT_DIR$/statement_analyzer">
       <method />
     </configuration>
@@ -304,6 +303,9 @@
       <method />
     </configuration>
     <configuration default="false" name="Colors.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="Colors.js" working-dir="$PROJECT_DIR$/statement_analyzer/SpecificParsers">
+      <method />
+    </configuration>
+    <configuration default="false" name="WordLengthTree.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="WordLengthTree.js" working-dir="$PROJECT_DIR$/statement_analyzer/SpecificParsers">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -345,19 +347,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.frequencies.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.DistanceMapping.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.ObjectFinder.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.PhraseTrie.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.Colors.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.DistanceMapping.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.ObjectFinder.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.PhraseTrie.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.Colors.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.WordLengthTree.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.Colors.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.PhraseTrie.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.ObjectFinder.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.DistanceMapping.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.frequencies.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.WordLengthTree.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.Colors.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.PhraseTrie.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.ObjectFinder.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.DistanceMapping.js" />
       </list>
     </recent_temporary>
   </component>
@@ -384,7 +386,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -413,26 +415,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/statement_analyzer/ObjectFinder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statement_analyzer/Collectors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
-          <folding>
-            <element signature="n#!!doc;n#removefirst#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/statement_analyzer/SpecificParsers/Colors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -895,10 +877,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/statement_analyzer/SpecificParsers/Colors.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.515873">
-          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
           <folding>
             <element signature="n#!!doc;n#word_count#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statement_analyzer/SpecificParsers/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statement_analyzer/SpecificParsers/WordLengthTree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7619048">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
