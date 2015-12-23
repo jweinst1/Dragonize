@@ -21,18 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="frequencies.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/statement_analyzer/frequencies.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc;n#word_freq#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DistanceMapping.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statement_analyzer/DistanceMapping.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,13 +91,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordLengthTree.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordLengthTree.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statement_analyzer/SpecificParsers/WordLengthTree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7619048">
-              <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Doublettrie.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/statement_analyzer/Doublettrie.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.07936508">
+              <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
+              <folding>
+                <element signature="n#!!doc;n#getwordpairs#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -164,6 +164,7 @@
         <option value="$PROJECT_DIR$/statement_analyzer/SpecificParsers/Colors.js" />
         <option value="$PROJECT_DIR$/statement_analyzer/SpecificParsers/Utils.js" />
         <option value="$PROJECT_DIR$/statement_analyzer/SpecificParsers/WordLengthTree.js" />
+        <option value="$PROJECT_DIR$/statement_analyzer/Doublettrie.js" />
       </list>
     </option>
   </component>
@@ -292,10 +293,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Node.js.WordLengthTree.js">
-    <configuration default="false" name="DistanceMapping.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="DistanceMapping.js" working-dir="$PROJECT_DIR$/statement_analyzer">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.Doublettrie.js">
     <configuration default="false" name="ObjectFinder.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="ObjectFinder.js" working-dir="$PROJECT_DIR$/statement_analyzer">
       <method />
     </configuration>
@@ -306,6 +304,9 @@
       <method />
     </configuration>
     <configuration default="false" name="WordLengthTree.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="WordLengthTree.js" working-dir="$PROJECT_DIR$/statement_analyzer/SpecificParsers">
+      <method />
+    </configuration>
+    <configuration default="false" name="Doublettrie.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="Doublettrie.js" working-dir="$PROJECT_DIR$/statement_analyzer">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -347,19 +348,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.DistanceMapping.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.ObjectFinder.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.PhraseTrie.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.Colors.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.WordLengthTree.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.ObjectFinder.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.PhraseTrie.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.Colors.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.WordLengthTree.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.Doublettrie.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.WordLengthTree.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.Colors.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.PhraseTrie.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.ObjectFinder.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.DistanceMapping.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Doublettrie.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.WordLengthTree.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.Colors.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.PhraseTrie.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.ObjectFinder.js" />
       </list>
     </recent_temporary>
   </component>
@@ -386,17 +387,17 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -415,16 +416,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/statement_analyzer/SpecificParsers/Colors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc;n#word_count#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/statement_analyzer/wordhasher.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -449,9 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="88" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
-          <folding>
-            <element signature="n#!!doc;n#replace_all#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -459,9 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc;n#word#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -547,9 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="88" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
-          <folding>
-            <element signature="n#!!doc;n#replace_all#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -557,9 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc;n#word#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -642,9 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="88" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
-          <folding>
-            <element signature="n#!!doc;n#replace_all#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -652,9 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc;n#word#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -727,9 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="88" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
-          <folding>
-            <element signature="n#!!doc;n#replace_all#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -737,9 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc;n#word#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -774,9 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="88" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
-          <folding>
-            <element signature="n#!!doc;n#replace_all#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -791,9 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="88" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
-          <folding>
-            <element signature="n#!!doc;n#replace_all#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,9 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc;n#word#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -851,16 +809,6 @@
           <caret line="77" column="123" selection-start-line="77" selection-start-column="123" selection-end-line="77" selection-end-column="123" />
           <folding>
             <element signature="n#!!doc;n#wordhash#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statement_analyzer/PhraseTrie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc;n#single_trie#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -897,10 +845,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/statement_analyzer/SpecificParsers/WordLengthTree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7619048">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statement_analyzer/PhraseTrie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc;n#single_trie#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statement_analyzer/Doublettrie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07936508">
+          <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
+          <folding>
+            <element signature="n#!!doc;n#getwordpairs#0" expanded="false" />
           </folding>
         </state>
       </provider>

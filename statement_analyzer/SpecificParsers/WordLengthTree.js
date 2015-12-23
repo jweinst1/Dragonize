@@ -46,3 +46,14 @@ function getshortest(lengthtree) {
     if(lengthtree.left==null) return lengthtree.value;
     else return getshortest(lengthtree.left);
 }
+//inverts the entire length tree
+function swapsides(lengthtree) {
+    if(isleaf(lengthtree)) return "Tree inverted";
+    else {
+        var holder = lengthtree.left.value;
+        lengthtree.left.value = lengthtree.right.value;
+        lengthtree.right.value = holder;
+        swapsides(lengthtree.left);
+        swapsides(lengthtree.right);
+    }
+}
